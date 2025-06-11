@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Magazin </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <section id="header">
+      <a href="index.html"><img src="poze carti/Magazinul de anticariat.png" class="logo" alt="logo"></a>
+  
+  
+<div>
+  <ul id="navbar">
+    <li><a href="index.html">Acasă</a></li>
+    <li><a href="#" id="produse-link">Produse</a>
+        <ul class="submenu" id="submenu">
+            <li><a href="#" id="carti-link">Cărți</a>
+                <ul class="genuri" id="genuri-submenu">
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=1">Acțiune și aventură</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=2">Ficțiune</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=3">Roman de dragoste</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=4">Poezie</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=5">Literatură clasică</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=6">Literatură contemporană</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=7">Dezvoltare personală</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=8">Adolescenți</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=9">Economie</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=10">Horror</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=11">Științe</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=12">Thriller</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=13">Non-ficțiune/Academic</a></li>
+                </ul>
+            </li>
+            <li><a href="http://localhost/anticariat/accesorii.php?">Accesorii</a></li>
+            <li><a href="http://localhost/anticariat/muzica.php?">Muzică</a></li>
+        </ul>
+    </li>
+<li><a href="despre_noi.html">Despre noi</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li> <a  class="account-link" href="http://localhost/anticariat/contulMeu.php"> Contul meu </a></li>
+<li> <a href="Wishlist.html" class="wishlist-icon">
+  <box-icon type="solid" name="heart"></box-icon>
+  <span id="wishlist-count">0</span>
+</a></li>
+
+
+<li>
+  <a href="shop.html" class="cart-icon">
+    <img src="poze carti/shop.png" class="shop" alt="">
+    <span id="cart-count"></span> <!-- folosit pentru badge-ul roșu -->
+</a>
+</li>
+
+</ul>
+  </div>
+  </section>
+  
+
+ 
+
+<div class="about-us">
+  <div class="despre">
+    <div class="row">
+      <div class="flex">
+        <h2>Despre noi</h2>
+        <h3>Bine ați venit pe site-ul nostru, un anticariat online dedicat iubitorilor de cărți, viniluri și accesorii deosebite</h3>
+        <p> Cu pasiune pentru cultură și autenticitate, selectăm cu grijă fiecare produs pentru a oferi o experiență unică. Oriunde te-ai afla, poveștile noastre ajung direct la tine prin câteva click-uri.
+        Și, deoarece comenzile tale sunt importante pentru noi, ne asigurăm că produsele sunt ambalate cu grijă și livrate rapid oriunde în țară, astfel încât să te poți bucura cât mai curând de comorile tale.
+          Descoperă colecțiile noastre și lasă-te inspirat!</p>
+  
+        <a href="index.html" class="despre-btn">Acasă</a>
+      </div>
+      <div class="flex">
+        <img src="poze carti/about_us1.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  
+
+
+<div class="audio-container">
+<audio id="audioPlayer" controls class="song">
+  <source src="poze carti/lofi-track.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    let audio = document.getElementById("audioPlayer");
+
+    // Încearcă să pornească automat
+    audio.play().catch(error => {
+        console.log("Autoplay blocat de browser. Utilizatorul trebuie să interacționeze cu pagina.");
+    });
+});
+</script>
+
+
+
+
+
+
+  
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="poze carti/logo.png" alt="logo">
+      <h4>Contact</h4>
+      <p><strong>Adresa: </strong>Calea Bucuresti, Craiova, Dolj, Romania</p>
+      <p><strong>Program: </strong> Luni-Vineri: 09:00 - 20:00</p>
+      <p><strong>E-mail: </strong> Anticariat_Online@gmail.com</p>
+      <div class="follow">
+        <h4>Urmărește-ne</h4>
+        <div class="icon">
+         <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dro_RO" target=blank> <i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/i/flow/login?mx=2" target=blank><i class="fab fa-twitter"></i></a>
+         <a href="https://www.instagram.com/accounts/login/" target=blank> <i class="fab fa-instagram"></i></a>
+          <a href="https://ro.pinterest.com/" target=blank><i class="fab fa-pinterest-p"></i></a>
+          <a href="https://www.youtube.com/" target=blank><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col">
+      <h4>Despre</h4>
+      <a href="despre_noi.html" target=blank>Despre Noi</a>
+      <a href="https://policies.google.com/privacy?hl=ro" target=blank>Politica de confidențialitate</a>
+      <a href="https://policies.google.com/terms?hl=ro" target=blank>Termenii si condițiile</a>
+      <a href="contact.html" target=blank>Contactează-ne</a>
+    </div>
+  
+    <div class="col">
+      <h4>Contul meu</h4>
+      <a href="http://localhost/anticariat/contulMeu.php" target=blank>Conectează-te</a>
+      <a href="shop.html" target=blank>Coșul meu de cumpărături</a>
+      <a href="Wishlist.html">My wishlist</a>
+       <a href="despre_noi.html" target=blank>Ajutor</a>
+    </div>
+  
+    <div class="col install">
+      <h4>Instalează Aplicația</h4>
+      <p>Din App Store sau Google Play</p>
+      <div class="row">
+        <img class="footer-img" src="poze carti/aplicatie.png" alt="google play appstore">
+        
+      </div>
+      <p> Modalități de Plată</p>
+      <img class="footer-img2" src="poze carti/plata png.png" alt="plata">
+    </div>
+  
+  <div class="copyright">
+    <p>Copyright 2024 - Anticariat Online - Toate drepturile rezervate</p>
+  </div>
+  
+  </footer>
+  
+  
+  <script src="script.js"></script>
+  </body>
+  
+  </html>

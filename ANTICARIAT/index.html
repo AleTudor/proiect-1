@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Magazin </title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+   <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+</head>
+
+
+<body style="background-color: rgb(248, 244, 240);">
+<header>
+<section id="header">
+  
+    <a href="#"><img src="poze carti/Magazinul de anticariat.png" class="logo" alt="logo"></a>
+
+
+<div class="nav_toggle" id="nav-toggle">
+  <input type="checkbox" class="check" id="check">
+  <label for="check">
+  <i class="ri-menu-line nav_burger"></i>
+  <i class="ri-close-large-line nav_close"></i>
+</label>
+</div>
+
+<div class="nav_menu" id="nav-menu">
+  <ul id="navbar">
+    <li><a href="index.html">Acasă</a></li>
+    <li><a href="#" id="produse-link">Produse</a>
+        <ul class="submenu" id="submenu">
+            <li><a href="#" id="carti-link">Cărți</a>
+                <ul class="genuri" id="genuri-submenu">
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=1">Acțiune și aventură</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=2">Ficțiune</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=3">Roman de dragoste</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=4">Poezie</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=5">Literatură clasică</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=6">Literatură contemporană</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=7">Dezvoltare personală</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=8">Adolescenți</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=9">Economie</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=10">Horror</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=11">Științe</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=12">Thriller</a></li>
+                    <li><a href="http://localhost/anticariat/carti.php?gen_id=13">Non-ficțiune/Academic</a></li>
+                </ul>
+            </li>
+            <li><a href="http://localhost/anticariat/accesorii.php?">Accesorii</a></li>
+            <li><a href="http://localhost/anticariat/muzica.php?">Muzică</a></li>
+        </ul>
+    </li>
+<li><a href="despre_noi.html">Despre noi</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li> <a  class="account-link" href="http://localhost/anticariat/contulMeu.php"> Contul meu </a></li>
+
+<li>
+  <a href="Wishlist.html" class="wishlist-icon">
+      <box-icon type="solid" name="heart"></box-icon>
+      <span id="wishlist-count">0</span>
+  </a>
+</li>
+
+<li>
+  <a href="shop.html" class="cart-icon">
+    <img src="poze carti/shop.png" class="shop" alt="">
+    <span id="cart-count"></span>
+</a>
+</li>
+
+
+
+</ul>
+</div>
+
+
+</section>
+</header>
+
+
+
+
+
+<section id="galerie">
+ 
+  <div class="carusel">
+    <div class="slide">
+       <div class="text-slide">
+        <h2 class="text-banner">Incă n-ai auzit?!</h2>
+        <h3>Promoție Specială de Black Friday!</h3>
+        <p>Doar la noi ai reduceri de până la 70% la toate cărțile și accesoriile tale preferate!<br>
+          Nu rata această ocazie și cumpără cartea mult dorită sau, de ce nu, <br> cărțile pe care ai vrut mereu
+          să le citești dar nu ai avut ocazia sau <br> (shh! nu spunem la nimeni ;) ) bugetul necesar. <br>
+          Te așteptăm cu drag!
+        </p>
+      </div>
+     <div class="image"><img src="poze carti/poza-banner.png" alt="banner"></div>
+    </div>
+            <div class="slide ">
+            <div class="image7">
+              <!-- Video adăugat în loc de imagine -->
+              <video  controls>
+                <source src="poze carti/video-anticariat1.mp4" type="video/mp4">
+                Îmi pare rău, dar browser-ul tău nu acceptă fișiere video.
+              </video>
+          </div>
+        </div>
+  
+
+    <div class="slide">
+      <div class="text-slide">
+        <h2 class="text-banner">Da!! Ai vazut bine!</h2>
+        <h3>Site-ul perfect? Oare???</h3>
+        <p>Aici? Da, aici!! <br>
+          Aici găsești cele mai bune cărți la cele mai bune prețuri și, dacă te aventurezi puțin pe site-ul nostru, <br>
+          poate-ți găsești accesoriile pe care ți le doreai de atâta timp. Și mai avem și muzică! Ugh! Parcă e prea frumos să fie adevărat! <br>
+          Treci pe la noi și cu siguranță nu vei pleca cu coșul gol de aici!
+        </p>
+      </div>
+      <div class="image_2">
+        <img src="poze carti/png-om.png" alt="Banner"></div>
+    </div>
+    <div class="slide">
+      <div class="text-slide">
+        <h2 class="text-banner">Ahh Romance!</h2>
+        <h3>Promoție Specială la Cărțile Romance</h3>
+        <p> La orice carte din categoria Romance cumpărată ai reducere 50% la orice disc de vinil :) <br>
+          Căci până la urmă, cu ce merge cel mai bine o carte de dragoste dacă nu cu puțină muzică ;)
+        </p>
+      </div>
+      <div class="image_3"><img src="poze carti/muzica.png.png" alt="Promoție"></div>
+       <div class="image_2"><img src="poze carti/png-carti.png" alt="Promoție"></div>
+      
+    </div>
+   
+  </div>
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+</section>
+
+
+<section id="feature" class="section-p1">
+  <div class="fe-box">
+    <img class="imag-shipping" src="poze carti/free shipping.png" alt="free shipping">
+    <h6>Livrare Gratuită</h6>
+  </div>
+
+
+  <div class="fe-box">
+    <img class="imag-shipping" src="poze carti/online order.png" alt="online order">
+    <h6>Comandă Online</h6>
+  </div>
+
+
+  <div class="fe-box">
+    <img class="imag-shipping" src="poze carti/save money.png" alt="Economisire">
+    <h6>Economisește bani</h6>
+  </div>
+
+
+  <div class="fe-box">
+    <img class="imag-shipping" src="poze carti/promotions.png" alt="Promotii">
+    <h6>Promoții nenumărate</h6>
+  </div>
+
+
+  <div class="fe-box">
+    <img class="imag-shipping" src="poze carti/carti.png" alt="Noutati">
+    <h6>Noutăți zi de zi</h6>
+  </div>
+</section>
+
+
+
+<section id="product1" class="section-p1">
+<h2>Produse de top</h2>
+
+<div class="text"><h4>Cărți</h4></div>
+
+<div class="slide-container">
+
+
+
+<div class="pro-container">
+ <div class="pro">
+   <img src="poze carti/ahile.3d_1.png" alt="Cantul lui Ahile">
+   <div class="des">
+     <span> Madeline Miller </span>
+     <h5>  Cântul lui Ahile</h5>
+     <div class="star">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+     </div>
+     <h4 class="pret">40 lei</h4>
+   </div>
+   <div class="product-actions2">
+   <a class="cart2  add-to-cart"
+  data-id="111"
+  data-name="Cântul lui Ahile"
+  data-price="40"
+  data-image="poze/ahile.3d_1.png"
+  onclick="addToCart(this)">
+  <i class="fa-solid fa-cart-plus"></i>
+</a>
+
+ <!-- Buton pentru wishlist -->
+ <a class="wishlist-btn2  add-to-wishlist"
+ data-id="111"
+ data-name="Cântul lui Ahile"
+ data-price="40"
+ data-image="poze/ahile.3d_1.png"
+ onclick="addToWishlist(this)">
+<box-icon type="solid" name="heart"></box-icon>
+</a>
+</div>
+
+ </div>
+
+ <div class="pro">
+  <img src="poze carti/O_viață_măruntă_cover.png" alt="O viață măruntă">
+  <div class="des">
+    <span> Hanya Yanagihara </span>
+    <h5>O viață măruntă</h5>
+    <div class="star">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+    <h4>45 lei</h4>
+  </div>
+
+  <div class="product-actions2">
+    <a class="cart2"
+       data-id="122"
+       data-name="O viață măruntă"
+       data-price="45"
+       data-image="ANTICARIAT/poze carti/O_viață_măruntă_cover.png"
+       onclick="addToCart(this)">
+      <i class="fa-solid fa-cart-plus"></i>
+    </a>
+        <!-- Buton pentru wishlist -->
+        <a class="wishlist-btn2  add-to-wishlist"
+        data-id="122"
+        data-name="O viață măruntă"
+        data-price="45"
+        data-image="ANTICARIAT/poze carti/O_viață_măruntă_cover.png"
+        onclick="addToWishlist(this)">
+       <box-icon type="solid" name="heart"></box-icon>
+     </a>
+  
+</div>
+
+</div>
+
+
+
+<div class="pro">
+  <img src="poze carti/circe.png" alt="Circe">
+  <div class="des">
+    <span> Madeline Miller </span>
+    <h5>  Circe</h5>
+    <div class="star">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+    </div>
+    <h4>38 lei</h4>
+  </div>
+  <div class="product-actions2">
+  <a class="cart2"
+  data-id="133"
+  data-name="Circe"
+  data-price="38"
+  data-image="ANTICARIAT/poze carti/circe.png"
+  onclick="addToCart(this)">
+  <i class="fa-solid fa-cart-plus"></i>
+</a>
+
+        <!-- Buton pentru wishlist -->
+        <a class="wishlist-btn2  add-to-wishlist"
+        data-id="133"
+        data-name=" Circe"
+        data-price="38"
+        data-image="ANTICARIAT/poze carti/circe.png"
+        onclick="addToWishlist(this)">
+        <box-icon type="solid" name="heart"></box-icon>
+        </a>
+        </div>
+</div>
+
+<div class="pro">
+  <img src="poze carti/Solenoid.jpg" alt="Solenoid">
+  <div class="des">
+    <span> Mircea Cărtărescu </span>
+    <h5> Solenoid</h5>
+    <div class="star">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+    </div>
+    <h4>50 lei</h4>
+  </div>
+  <div class="product-actions2">
+  <a class="cart2"
+  data-id="144"
+  data-name="Solenoid"
+  data-price="50"
+  data-image="poze carti/Solenoid.jpg"
+  onclick="addToCart(this)">
+  <i class="fa-solid fa-cart-plus"></i>
+</a>
+
+<!-- Buton pentru wishlist -->
+<a class="wishlist-btn2  add-to-wishlist"
+data-id="144"
+data-name="Solenoid"
+data-price="50"
+data-image="poze carti/Solenoid.jpg"
+onclick="addToWishlist(this)">
+<box-icon type="solid" name="heart"></box-icon>
+</a>
+</div>
+</div>
+
+    </div>
+
+
+
+  </div> 
+  </section>
+
+
+
+
+  
+<section id="product1" class="section-p1">
+  
+  <div class="text"><h4>Muzică</h4></div>
+  
+  <div class="slide-container">
+ 
+  
+  
+  <div class="pro-container">
+   <div class="pro">
+     <img src="poze carti/vinil HS.png" alt="Harry's House">
+     <div class="des">
+       <span> Harry Styles </span>
+       <h5>Harry's House</h5>
+       <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+       </div>
+       <h4>150 lei</h4>
+     </div>
+     <div class="product-actions2">
+        <a 
+        data-id="155"
+        data-name="Harry's House"
+        data-price="150"
+        data-image="ANTICARIAT/poze carti/vinil HS.png"
+        onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+
+        <!-- Buton pentru wishlist -->
+        <a class="wishlist-btn2  add-to-wishlist"
+        data-id="155"
+        data-name="Harry's House"
+        data-price="150"
+        data-image="ANTICARIAT/poze carti/vinil HS.png"
+        onclick="addToWishlist(this)">
+       <box-icon type="solid" name="heart"></box-icon>
+     </a>
+     </div>
+   </div>
+  
+  
+   <div class="pro">
+    <img src="poze carti/vinil AM.png" alt="AM">
+    <div class="des">
+      <span> Arctic Monkeys </span>
+      <h5>AM</h5>
+      <div class="star">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+      </div>
+      <h4>150 lei</h4>
+    </div>
+    <div class="product-actions2">
+       <a  
+       data-id="166"
+       data-name="AM"
+       data-price="150"
+       data-image="ANTICARIAT/poze carti/vinil AM.png"
+       onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+<!-- Buton pentru wishlist -->
+<a class="wishlist-btn2  add-to-wishlist"
+data-id="166"
+data-name="AM"
+data-price="150"
+data-image="ANTICARIAT/poze carti/vinil AM.png"
+onclick="addToWishlist(this)">
+<box-icon type="solid" name="heart"></box-icon>
+</a>
+    </div>  
+  </div>
+  
+  
+  <div class="pro">
+    <img src="poze carti/vinil MJ.png" alt="Thriller">
+    <div class="des">
+      <span> Michael Jackson </span>
+      <h5>Thriller</h5>
+      <div class="star">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+      </div>
+      <h4>160 lei</h4>
+    </div>
+    <div class="product-actions2">
+       <a  
+       data-id="177"
+       data-name="Thriller"
+       data-price="160"
+       data-image="ANTICARIAT/poze carti/vinil MJ.png"
+       onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+
+       <!-- Buton pentru wishlist -->
+       <a class="wishlist-btn2  add-to-wishlist"
+       data-id="177"
+       data-name="Thriller"
+       data-price="160"
+       data-image="ANTICARIAT/poze carti/vinil MJ.png"
+       onclick="addToWishlist(this)">
+      <box-icon type="solid" name="heart"></box-icon>
+    </a>
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="pro">
+    <img src="poze carti/vinil gaga.png" alt="Joanne">
+    <div class="des">
+      <span> Lady Gaga </span>
+      <h5>Joanne</h5>
+      <div class="star">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+      </div>
+      <h4>140 lei</h4>
+    </div>
+    <div class="product-actions2">
+       <a  
+       data-id="188"
+       data-name="Joanne"
+       data-price="140"
+       data-image="ANTICARIAT/poze carti/vinil gaga.png"
+       onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+       <!-- Buton pentru wishlist -->
+       <a class="wishlist-btn2  add-to-wishlist"
+       data-id="188"
+       data-name="Joanne"
+       data-price="140"
+       data-image="ANTICARIAT/poze carti/vinil gaga.png"
+       onclick="addToWishlist(this)">
+      <box-icon type="solid" name="heart"></box-icon>
+    </a>
+    </div>
+  </div>
+  
+      </div>
+  
+  
+    </div> 
+    </section>
+  
+
+
+
+
+  
+    <section id="product1" class="section-p1">
+  
+      <div class="text"><h4>Accesorii</h4></div>
+      
+      <div class="slide-container">
+    
+      
+      
+      <div class="pro-container">
+       <div class="pro">
+         <img src="poze carti/tote bag 4.jpg" alt="tote bag">
+         <div class="des">
+           <span>N/N </span>
+           <h5>Keep it cute Tote Bag</h5>
+           <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           </div>
+           <h4>20 lei</h4>
+         </div>
+         <div class="product-actions2">
+            <a  
+            data-id="199"
+            data-name="Keep it cute Tote Bag"
+            data-price="20"
+            data-image="ANTICARIAT/poze carti/tote bag 4.jpg"
+            onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+
+            <!-- Buton pentru wishlist -->
+        <a class="wishlist-btn2  add-to-wishlist"
+        data-id="199"
+        data-name="Keep it cute Tote Bag"
+        data-price="20"
+        data-image="ANTICARIAT/poze carti/tote bag 4.png"
+        onclick="addToWishlist(this)">
+       <box-icon type="solid" name="heart"></box-icon>
+     </a>
+         </div>
+       </div>
+      
+      
+       <div class="pro">
+        <img src="poze carti/inel argint.png" alt="inel">
+        <div class="des">
+          <span> N/N </span>
+          <h5>Inel de argint</h5>
+          <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+          </div>
+          <h4>130 lei</h4>
+        </div>
+        <div class="product-actions2">
+           <a 
+           data-id="200"
+           data-name="Inel de argint"
+           data-price="130"
+           data-image="ANTICARIAT/poze carti/inel argint.png"
+           onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+
+           <!-- Buton pentru wishlist -->
+        <a class="wishlist-btn2  add-to-wishlist"
+        data-id="200"
+        data-name="Inel de argint"
+        data-price="130"
+        data-image="ANTICARIAT/poze carti/inel argint.png"
+        onclick="addToWishlist(this)">
+       <box-icon type="solid" name="heart"></box-icon>
+     </a>
+        </div>
+      </div>
+      
+      
+      <div class="pro">
+        <img src="poze carti/colier auriu.png" alt="colier">
+        <div class="des">
+          <span>ba&sh </span>
+          <h5>Colier din aur</h5>
+          <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+          </div>
+          <h4>500 lei</h4>
+        </div>
+        <div class="product-actions2">
+           <a 
+           data-id="211"
+           data-name="Colier din aur"
+           data-price="500"
+           data-image="ANTICARIAT/poze carti/colier auriu.png"
+           onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+
+           <!-- Buton pentru wishlist -->
+        <a class="wishlist-btn2  add-to-wishlist"
+        data-id="211"
+        data-name="Colier de aur"
+        data-price="500"
+        data-image="ANTICARIAT/poze carti/colier auriu.png"
+        onclick="addToWishlist(this)">
+       <box-icon type="solid" name="heart"></box-icon>
+     </a>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="pro">
+        <img src="poze carti/cercei pisica.png" alt="cercei">
+        <div class="des">
+          <span>N/N </span>
+          <h5>Cercei pisică din argint</h5>
+          <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+          </div>
+          <h4>70 lei</h4>
+        </div>
+        <div class="product-actions2">
+           <a  
+           data-id="222"
+           data-name="Cercei pisică din argint"
+           data-price="70"
+           data-image="ANTICARIAT/poze carti/cercei pisica.png"
+           onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+           <!-- Buton pentru wishlist -->
+        <a class="wishlist-btn2  add-to-wishlist"
+        data-id="222"
+        data-name="Cercei pisică din argint"
+        data-price="150"
+        data-image="ANTICARIAT/poze carti/cercei pisica.png"
+        onclick="addToWishlist(this)">
+       <box-icon type="solid" name="heart"></box-icon>
+     </a>
+      
+      </div>
+      
+    </div>
+         
+  </div>
+</section>
+      
+    
+    
+
+
+        <section id="product1" class="section-p1">
+        <div class="noutati"> <h2>Noutăți</h2></div>
+          
+        
+          
+          <div class="slide-container">
+          
+          
+          
+          <div class="pro-container">
+           <div class="pro">
+             <img src="poze carti/ce pozne a mai facut catelul meu.png" alt="ce pozne a mai facut catelul meu">
+             <div class="des">
+               <span> Tatiana Niculescu </span>
+               <h5> Ce pozne a mai făcut cățelul meu </h5>
+               <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               </div>
+               <h4>40 lei</h4>
+             </div>
+              <div class="product-actions2">
+                <a 
+                data-id="233"
+                data-name="Ce pozne a mai făcut cățelul meu"
+                data-price="40"
+                data-image="ANTICARIAT/poze carti/ce pozne a mai facut catelul meu.png"
+                onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+
+                <!-- Buton pentru wishlist -->
+        <a class="wishlist-btn2  add-to-wishlist"
+        data-id="233"
+        data-name="Ce pozne a mai făcut cățelul meu"
+        data-price="40"
+        data-image="ANTICARIAT/poze carti/ce pozne a mai facut catelul meu.png"
+        onclick="addToWishlist(this)">
+       <box-icon type="solid" name="heart"></box-icon>
+     </a>
+              </div>
+           </div>
+          
+          
+           <div class="pro">
+            <img src="poze carti/ce inseamna sa fi om.png" alt="ce inseamna sa fi om">
+            <div class="des">
+              <span> Cristian Badilița </span>
+              <h5>Ce înseamnă să fi om</h5>
+              <div class="star">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+              </div>
+              <h4>30 lei</h4>
+            </div>
+            <div class="product-actions2">
+               <a 
+               data-id="244"
+               data-name="Ce înseamnă să fi om"
+               data-price="30"
+               data-image="ANTICARIAT/poze carti/ce inseamna sa fi om.png"
+               onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+               <!-- Buton pentru wishlist -->
+        <a class="wishlist-btn2  add-to-wishlist"
+        data-id="244"
+        data-name="Ce înseamnă să fi om"
+        data-price="30"
+        data-image="ANTICARIAT/poze carti/ce inseamna sa fi om.png"
+        onclick="addToWishlist(this)">
+       <box-icon type="solid" name="heart"></box-icon>
+     </a>
+            </div>
+          </div>
+          
+          
+          <div class="pro">
+            <img src="poze carti/brosa argint.png" alt="brosa ">
+            <div class="des">
+              <span> N/N </span>
+              <h5>  Broșa argint</h5>
+              <div class="star">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+              </div>
+              <h4>100 lei</h4>
+            </div>
+            <div class="product-actions2">
+               <a  
+               data-id="255"
+               data-name="Broșa argint"
+               data-price="100"
+               data-image="ANTICARIAT/poze carti/brosa argint.png"
+               onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+               <!-- Buton pentru wishlist -->
+        <a class="wishlist-btn2  add-to-wishlist"
+        data-id="255"
+        data-name="Broșa argint"
+        data-price="100"
+        data-image="ANTICARIAT/poze carti/brosa argint.png"
+        onclick="addToWishlist(this)">
+       <box-icon type="solid" name="heart"></box-icon>
+     </a>
+            </div>
+          </div>
+
+
+          <div class="pro">
+            <img src="poze carti/vinil eminem.png" alt="Eminem">
+            <div class="des">
+              <span> Eminem </span>
+              <h5>Music to be murdered by </h5>
+              <div class="star">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+              </div>
+              <h4>150 lei</h4>
+            </div>
+            <div class="product-actions2">
+               <a 
+               data-id="266"
+               data-name="Music to be murdered by "
+               data-price="150"
+               data-image="ANTICARIAT/poze carti/vinil eminem.png"
+               onclick="addToCart(this)"><i class="fa-solid fa-cart-plus cart2"></i></i></a>
+
+
+               <!-- Buton pentru wishlist -->
+        <a class="wishlist-btn2  add-to-wishlist"
+        data-id="266"
+        data-name="Music to be murdered by "
+        data-price="150"
+        data-image="ANTICARIAT/poze carti/vinil eminem.png"
+        onclick="addToWishlist(this)">
+       <box-icon type="solid" name="heart"></box-icon>
+     </a>
+            </div>
+          </div>
+         
+        </section>
+
+
+<section id="sm-banner" class="section-p1">
+ <div class="banner-box"> 
+  <h4 class="text-oferte">De Neratat</h4>
+  <h2 class="text-oferte"> Reduceri la categoria Ficțiune</h2>
+  <span class="text-oferte">Romane de colecție la cele mai bune prețuri</span>
+  <a href="http://localhost/anticariat/carti.php?gen_id=2"><button class="white">Află mai multe</button></a>
+ </div>
+
+
+ <div class="banner-box banner-box2"> 
+  <h4 class="text-oferte">Accesorii? Yes please!</h4>
+  <h2 class="text-oferte">Bijuterii cât vezi cu ochii</h2>
+  <span class="text-oferte">Reduceri la bijuteriile de argint</span>
+ <a href="http://localhost/anticariat/accesorii.php?"> <button class="white">Află mai multe</button></a>
+ </div>
+</section>
+      
+
+<section id="newsletter" class="section-p1 section-m1">
+  <div class="newstext">
+    <h4>Abonează-te la Newsletter</h4>
+    <p>Primește actualizări prin E-mail despre ofertele noastre<span> speciale</span> </p>
+  </div>
+  <div class="form2">
+    <input type="text" id="emailInput" placeholder="Adresa ta E-mail aici">
+    <button class="button-normal" id="subscribeBtn">Înscrie-te</button>
+  </div>
+</section>
+
+<!-- Popup Modal -->
+<div id="popupMessage" class="popup">
+  <div class="popup-content">
+    <p id="popupText"></p>
+    <button id="closePopup">OK</button>
+  </div>
+</div>
+
+
+
+<footer class="section-p1">
+  <div class="col">
+    <img class="logo" src="poze carti/logo.png" alt="logo">
+    <h4>Contact</h4>
+    <p><strong>Adresa: </strong>Calea Bucuresti, Craiova, Dolj, Romania</p>
+    <p><strong>Program: </strong> Luni-Vineri: 09:00 - 20:00</p>
+    <p><strong>E-mail: </strong> Anticariat_Online@gmail.com</p>
+    <div class="follow">
+      <h4>Urmărește-ne</h4>
+      <div class="icon">
+       <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dro_RO" target=blank> <i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/i/flow/login?mx=2" target=blank><i class="fab fa-twitter"></i></a>
+       <a href="https://www.instagram.com/accounts/login/" target=blank> <i class="fab fa-instagram"></i></a>
+        <a href="https://ro.pinterest.com/" target=blank><i class="fab fa-pinterest-p"></i></a>
+        <a href="https://www.youtube.com/" target=blank><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <h4>Despre</h4>
+    <a href="despre_noi.html" target=blank>Despre Noi</a>
+    <a href="https://policies.google.com/privacy?hl=ro" target=blank>Politica de confidențialitate</a>
+    <a href="https://policies.google.com/terms?hl=ro" target=blank>Termenii si condițiile</a>
+    <a href="contact.html" target=blank>Contactează-ne</a>
+  </div>
+
+  <div class="col">
+    <h4>Contul meu</h4>
+    <a href="http://localhost/anticariat/contulMeu.php" target=blank>Conectează-te</a>
+    <a href="shop.html" target=blank>Coșul meu de cumpărături</a>
+    <a href="Wishlist.html">My wishlist</a>
+     <a href="despre_noi.html" target=blank>Ajutor</a>
+  </div>
+
+  <div class="col install">
+    <h4>Instalează Aplicația</h4>
+    <p>Din App Store sau Google Play</p>
+    <div class="row">
+      <img class="footer-img" src="poze carti/aplicatie.png" alt="google play appstore">
+      
+    </div>
+    <p> Modalități de Plată</p>
+    <img class="footer-img2" src="poze carti/plata png.png" alt="plata">
+  </div>
+
+
+  <button id="scrollToTop">▲</button>
+
+
+<div class="copyright">
+  <p>Copyright 2024 - Anticariat Online - Toate drepturile rezervate</p>
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
