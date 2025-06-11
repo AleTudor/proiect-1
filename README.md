@@ -13,7 +13,7 @@ Aceasta este o aplicație web funcțională, unde utilizatorii pot vizualiza, ad
 
 ---
 
-## ⚙ Funcționalități principale
+## Funcționalități principale
 
 -  Afișare produse cu detalii și imagini
 -  Sistem de **autentificare și înregistrare utilizatori**
@@ -22,6 +22,36 @@ Aceasta este o aplicație web funcțională, unde utilizatorii pot vizualiza, ad
 -  Finalizare comandă cu trimitere în baza de date
 -  Pagină de contact (formular)
 -  Pagină de administrare (vizualizare comenzi, utilizatori, mesaje)
+
+## Structura
+
+├── ANTICARIAT/
+│   ├── index.html
+│   ├── contact.html
+│   ├── despre_noi.html
+│   ├── shop.html
+│   ├── Wishlist.html
+│   ├── mail.php
+│   ├── payment-success.php
+│   ├── style.css
+│   ├── script.js
+│   └── poze carti
+│
+├── poze
+├── README.md
+├── site_map.xml
+├── stil.css
+├── script.js
+├── accesorii.php
+├── admin_dashboard.php
+├── carti.php
+├── contulMeu.php
+├── db_connection.php
+├── login.php
+├── logout.php
+├── muzica.php
+├── register.php
+└── trimite_raspuns.php
 
 
 
